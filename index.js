@@ -59,6 +59,6 @@ document.getElementById('user').innerHTML =
 //challenge-1
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("challenge-1.1").innerHTML = addTheWorld(5,2,8)
-// document.getElementById("challenge-1.2").innerHTML = addTheWorld(10,5,3,2)
-// document.getElementById("challenge-1.3").innerHTML = addTheWorld(25)
+// document.getElementById("challenge-11").innerHTML = addTheWorld(5,2,8)
+// document.getElementById("challenge-12").innerHTML = addTheWorld(10,5,3,2)
+// document.getElementById("challenge-13").innerHTML = addTheWorld(25)
