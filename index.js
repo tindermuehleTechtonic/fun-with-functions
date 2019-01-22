@@ -5,8 +5,10 @@ document.getElementById('user').innerHTML =
 
 //problem-1
 function addNumbers(firstNumber, secondNumber) {
-  return firstNumber + secondNumber;
+  return  Number(firstNumber) + Number(secondNumber);
 }
+
+
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
 
 document.getElementById("problem-1").innerHTML = addNumbers(3, 5);
