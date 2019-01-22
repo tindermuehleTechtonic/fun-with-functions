@@ -38,9 +38,11 @@ document.getElementById("problem-4").innerHTML = showResults(5);
 
 
 //problem-5
-
+function multiplyNumbers(firstNumber, secondNumber) {
+  return firstNumber * secondNumber;
+}
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-5").innerHTML =
+document.getElementById("problem-5").innerHTML = multiplyNumbers(5, 10)
 
 
 //problem-6
