@@ -1,7 +1,7 @@
 //DO NOT REMOVE this is just to hide the empty solution and feedback div that we will add after grading
 //Please enter your name for the assignment below
 document.getElementById('user').innerHTML =
-'Tim Indermuehle'
+  'Tim Indermuehle'
 
 //problem-1
 function addNumbers(firstNumber, secondNumber) {
@@ -9,7 +9,7 @@ function addNumbers(firstNumber, secondNumber) {
 }
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
 
-document.getElementById("problem-1").innerHTML = addNumbers(3,5);
+document.getElementById("problem-1").innerHTML = addNumbers(3, 5);
 
 
 //problem-2
@@ -18,7 +18,7 @@ function subtractNumbers(firstNumber, secondNumber) {
 }
 
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-document.getElementById("problem-2").innerHTML = subtractNumbers(10,8);
+document.getElementById("problem-2").innerHTML = subtractNumbers(10, 8);
 
 //problem-3
 function showResultsInBody(prameterName) {
@@ -30,9 +30,11 @@ document.getElementById("problem-3").innerHTML = showResultsInBody(5);
 
 
 //problem-4
-
+function showResults(prameterName) {
+  return "The result of your calculation is " + prameterName;
+}
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-// document.getElementById("problem-4").innerHTML =
+document.getElementById("problem-4").innerHTML = showResults(5);
 
 
 //problem-5
