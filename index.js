@@ -40,11 +40,19 @@ document.getElementById("problem-4").innerHTML = showResults(5);
 
 
 //problem-5
+// function multiplyNumbers(firstNumber, secondNumber) {
+//   return firstNumber * secondNumber;
+// }
+// // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
+// document.getElementById("problem-5").innerHTML = multiplyNumbers(5, 10);
+
 function multiplyNumbers(firstNumber, secondNumber) {
-  return firstNumber * secondNumber;
+  return Math.round (firstNumber * 1000) / 1000  * Math.round (secondNumber * 1000) / 1000;
 }
 // place functions and supporting code here.  Uncomment line below and place answer the to right of = sign
-document.getElementById("problem-5").innerHTML = multiplyNumbers(5, 10)
+document.getElementById("problem-5").innerHTML = multiplyNumbers(5, 10);
+
+
 
 
 //problem-6
