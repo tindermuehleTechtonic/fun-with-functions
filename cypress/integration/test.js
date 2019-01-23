@@ -224,7 +224,7 @@ describe('Problem 8',function(){
 
 describe('Problem 9',function(){
   it('Check that result of the equation is correctly displayed on the DOM',function(){
-    cy.get('#problem-9').should('have.text','55');
+    cy.get('#problem-9').should('have.text','The result of your calculation is 55.');
   });
 });
 
